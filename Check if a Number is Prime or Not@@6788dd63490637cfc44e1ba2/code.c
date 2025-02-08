@@ -11,12 +11,11 @@ void main() {
             if(a%i==0){
                 printf("Not Prime");
                 return;
+            }else{
+                n=0;
             }
         }
-    // if(n==0){
-    //     printf("Prime");
-    // }else if(n>0){
-    //     printf("Not Prime");
-    // }
+    if(n==0){
+        printf("Prime");}
     }
 }
