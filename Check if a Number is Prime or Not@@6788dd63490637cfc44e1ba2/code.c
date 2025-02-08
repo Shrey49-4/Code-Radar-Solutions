@@ -9,15 +9,14 @@ void main() {
         for(i=2;i<=a/2;i++)
         {
             if(a%i==0){
-                n++;
-            }else{
-                n=0;
+                n+=1;
+                return;
             }
         }
-    }
     if(n>0){
         printf("Prime");
     }else{
         printf("Not Prime");
+    }
     }
 }
