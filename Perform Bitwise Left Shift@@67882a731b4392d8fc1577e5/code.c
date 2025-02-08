@@ -2,6 +2,6 @@
 void main() {
     int a,b, result;
     scanf("%d %d", &a, &b);
-    result = a*b*2;
+    result = a<<b;
     printf("%d", result);
 }
