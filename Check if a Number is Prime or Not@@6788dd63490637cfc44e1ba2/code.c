@@ -13,7 +13,7 @@ void main() {
                 return;
             }
         }
-    if(n>0){
+    if(n==0){
         printf("Prime");
     }else{
         printf("Not Prime");
