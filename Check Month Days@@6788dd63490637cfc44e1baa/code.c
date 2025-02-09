@@ -1,5 +1,5 @@
 #include <stdio.h>
-void main() {
+int main() {
     int a;
     scanf("%d", &a);
     switch (a) {
@@ -15,6 +15,7 @@ void main() {
         case 10 : printf("31"); break;
         case 11 : printf("30"); break;
         case 12 : printf("31"); break;
-        default : printf("Invalid Number")
+        default : printf("Invalid Number");
     }
+    return 0;
 }
