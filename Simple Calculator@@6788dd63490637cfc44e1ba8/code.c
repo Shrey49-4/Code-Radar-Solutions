@@ -1,19 +1,15 @@
 #include <stdio.h>
 void main() {
-    int a,b,n;
+    int a,b;
     char c;
     scanf("%d %d %c", &a, &b, &c);
     if(c=="+"){
-        n= a+b;
-        printf("%d", n);
+        printf("%d", a+b);
     }else if(c=="-"){
-        n=a-b;
-        printf("%d", n);
+        printf("%d", a-b);
     }else if(c=="*"){
-        n=a*b;
-        printf("%d", n);
+        printf("%d", a*b);
     }else if(c=="/"){
-        n=a/b;
-        printf("%d", n);
+        printf("%d", a/b);
     }
 }
