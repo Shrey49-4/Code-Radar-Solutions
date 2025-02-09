@@ -2,15 +2,17 @@
 int main() {
     char a[10];
     scanf("%s", &a);
-    if(a[10]=="R")
+    if(a=="R")
     {
         printf("Stop");
     }
-    else if(a[10]=="G"){
+    else if(a=="G"){
         printf("Go");
     }
-    else if(a[10]== "Y"){
+    else if(a== "Y"){
         printf("Slow Down");
+    else{
+        printf("Invalid");
     }
 
     return 0;
