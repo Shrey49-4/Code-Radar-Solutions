@@ -8,5 +8,7 @@ int main() {
         printf("%d", b);
     }else if(a<c && c>b){
         printf("%d", c);
+    }else{
+        printf("&d", b);
     }
 }
