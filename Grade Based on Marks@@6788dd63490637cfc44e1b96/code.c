@@ -12,7 +12,7 @@ int main()
     }else if(a>=60){
         printf("D");
     }else{
-        printf("F")
+        printf("F");
     }
     return 0;
 }
