@@ -3,16 +3,11 @@ int main()
 {
     int i,j,a,k;
     scanf("%d",&a);
-    for(i=1;i<=2*a-1;i++)
+    for(i=1;i<=a;i++)
     {
-        for(k=1;k<=a;k++)
+        for(j=1;j<=2*a-1;j++)
         {
-            printf(" ");
+            printf("*")
         }
-        for(j=1;j<=a;j++)
-        {
-            printf("*");
-        }
-        printf("\n");
     }
 }
