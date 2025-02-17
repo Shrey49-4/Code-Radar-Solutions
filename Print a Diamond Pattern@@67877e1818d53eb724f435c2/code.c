@@ -18,10 +18,7 @@ int main()
     }
     for(b=e;b>=1;b--)
     {
-        for(d=1;d=e-b+1;d++)
-        {
-            printf(" ");
-        }
+        
         for(c=1;c<=2*b-1;c++)
         {
             printf("*");
