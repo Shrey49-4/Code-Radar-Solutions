@@ -11,11 +11,7 @@ int main()
         }
         for(j=1;j<=2*a-1;j++)
         {
-            if(i==a){
-                printf("*");
-            }else{
-                printf("#");
-            }
+            printf("*");
         }
         printf("\n");
     }
