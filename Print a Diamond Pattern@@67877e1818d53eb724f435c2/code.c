@@ -5,11 +5,11 @@ int main()
     scanf("%d",&a);
     for(i=1;i<=2*a-1;i++)
     {
-        for(k=1;k<=a-i;k++)
+        for(k=1;k<=a;k++)
         {
             printf(" ");
         }
-        for(j=1;j<=2*a-1;j++)
+        for(j=1;j<=a;j++)
         {
             printf("*");
         }
