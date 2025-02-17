@@ -18,7 +18,7 @@ int main()
     }
     for(b=e;b>=1;b--)
     {
-        for(d=1;d<=c;d++)
+        for(d=1;d=2*(e-b);d++)
         {
             printf(" ");
         }
