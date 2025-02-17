@@ -10,7 +10,11 @@ int main()
             if(i==1 || i==a){
                 printf("*");
             }else{
-                printf(" ");
+                if(j==1 || j==a){
+                    printf("*");
+                }else{
+                    printf(" ");
+                }
             }
             
         }
