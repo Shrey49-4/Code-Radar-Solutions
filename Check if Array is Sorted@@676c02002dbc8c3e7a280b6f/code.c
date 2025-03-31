@@ -14,6 +14,8 @@ int main()
     }
     if(num=n-1){
         printf("Sorted");
+    }else if(n==1){
+        printf("Sorted");
     }else{
         printf("Not Sorted");
     }
