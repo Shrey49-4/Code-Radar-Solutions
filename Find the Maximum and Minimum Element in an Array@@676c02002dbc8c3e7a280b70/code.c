@@ -11,7 +11,7 @@ int main()
         if(lis[i]>lis[i-1]){
             max=lis[i];
         }
-        if(lis[i]>lis[i-1]){
+        if(lis[i]<lis[i-1]){
             min=lis[i];
         }
     }
