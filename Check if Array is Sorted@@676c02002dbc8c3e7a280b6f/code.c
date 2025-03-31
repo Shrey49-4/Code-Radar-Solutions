@@ -7,7 +7,7 @@ int main()
     for(i=0;i<n;i++){
         scanf("%d", &lis[i]);
         if(i>=1){
-            if(lis[i]>lis[i-1]){
+            if(lis[i]>=lis[i-1]){
                 num=num+1;
             }
         }
