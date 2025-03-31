@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main()
 {
-    int n,temp;
+    int n,temp,i;
     scanf("%d", &n);
     int lis[n];
     for(i=0;i<n;i++){
