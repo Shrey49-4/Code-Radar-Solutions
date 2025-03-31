@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main()
 {
-    int n,i,;
+    int n,i;
     scanf("%d", &n);
     int lis[n];
     int max=lis[0], min=lis[0];
