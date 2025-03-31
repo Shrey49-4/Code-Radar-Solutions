@@ -10,10 +10,10 @@ int main()
     }
     int max=lis[0], min=lis[0];
     for(i=0;i<n;i++){
-        if(lis[i]>lis[i-1]){
+        if(lis[i]>max){
             max=lis[i];
         }
-        if(lis[i]<lis[i-1]){
+        if(lis[i]<min){
             min=lis[i];
         }
     }
