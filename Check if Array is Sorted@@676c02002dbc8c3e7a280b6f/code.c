@@ -5,7 +5,7 @@ int main()
     scanf("%d", &n);
     int lis[n];
     for(i=0;i<n;i++){
-        scanf("%d", lis[i]);
+        scanf("%d", &lis[i]);
         if(i>=1){
             if(lis[i]>lis[i-1]){
                 num=num+1;
