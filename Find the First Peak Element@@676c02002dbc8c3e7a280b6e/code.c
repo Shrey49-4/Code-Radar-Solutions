@@ -15,8 +15,8 @@ int main()
         }
     }
 
-    if(f==0){
-        printf("%d", lis[n-1]);
-    }
+    // if(f==0){
+    //     printf("%d", lis[n-1]);
+    // }
     return 0;
 }
