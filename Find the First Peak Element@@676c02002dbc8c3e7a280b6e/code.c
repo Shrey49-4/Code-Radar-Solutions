@@ -13,7 +13,7 @@ int main()
             f=1;
             break;
         }
-        if(i==n){
+        if(i==n-1){
             if(lis[i]>lis[i-1]){
                 printf("%d",lis[n-1]);
                 f=1;
