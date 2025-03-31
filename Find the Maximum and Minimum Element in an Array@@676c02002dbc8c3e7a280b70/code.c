@@ -11,9 +11,9 @@ int main()
         if(lis[i]>lis[i-1]){
             max=lis[i];
         }
-        if(lis[i]<lis[i-1]){
-            min=lis[i];
-        }
+        // if(lis[i]<lis[i-1]){
+        //     min=lis[i];
+        // }
     }
     printf("%d %d", max, min);
     return 0;
