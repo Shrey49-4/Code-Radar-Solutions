@@ -6,7 +6,7 @@ int main()
     int lis[n];
     for(i=0;i<n;i++){
         scanf("\n%d", &lis[i]);
-        if(i>0){
+        if(i>0 && i<n-1){
             if(lis[i]>lis[i-1] && lis[i]>lis[i+1]){
                 printf("%d", lis[i]);
                 break;
