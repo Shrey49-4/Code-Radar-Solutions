@@ -10,13 +10,13 @@ int main()
     for(i=0;i<n-1;i++){
         if(lis[i]>lis[i-1] && lis[i]>lis[i+1]){
             printf("%d\n", lis[i]);
-            break;
             f=1;
+            break;
         }
     }
 
-    // if(f==0){
-    //     printf("%d", lis[n-1]);
-    // }
+    if(f==0){
+        printf("%d", lis[n-1]);
+    }
     return 0;
 }
