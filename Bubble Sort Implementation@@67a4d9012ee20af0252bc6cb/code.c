@@ -8,7 +8,7 @@ int main()
         scanf("%d", &lis[i]);
     }
 
-    for(i=0;i<n;i++){
+    for(i=0;i<n-1;i++){
         for(j=i+1;j<n;j++){
             if(lis[i]>lis[j]){
                 temp = lis[j];
@@ -17,7 +17,9 @@ int main()
             }
         }
     }
-    printf("%d", lis);
+    for(i=0;i<n;i++){
+        printf("%d", lis[i]);
+    }
 
     return 0;
 }
