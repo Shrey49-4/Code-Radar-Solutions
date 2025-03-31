@@ -28,6 +28,8 @@ int main() {
         if (arr[i] != arr[0]) { // Find the first distinct element
             printf("%d", arr[i]);
             return 0;
+        }else{
+            printf("-1");
         }
     }
 
