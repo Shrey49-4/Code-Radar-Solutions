@@ -13,10 +13,17 @@ int main()
             f=1;
             break;
         }
+        if(i==n){
+            if(lis[i]>lis[i-1]){
+                printf("%d",lis[n-1]);
+                f=1;
+                break;
+            }
+        }
     }
 
     if(f==0){
-        printf("%d", lis[n-1]);
+        printf("-1");
     }
     return 0;
 }
