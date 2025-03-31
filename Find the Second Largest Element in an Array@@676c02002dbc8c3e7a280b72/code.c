@@ -27,7 +27,7 @@ int main() {
 
     for (int i = 1; i < n; i++) {
         if (arr[i] != arr[0]) { // Find the first distinct element
-            printf("Second largest element: %d\n", arr[i]);
+            printf("%d", arr[i]);
             return 0;
         }
     }
