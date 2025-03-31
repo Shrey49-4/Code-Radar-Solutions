@@ -18,7 +18,6 @@ int main() {
     scanf("%d", &n);
 
     int arr[n];
-    printf("Enter array elements: ");
     for (int i = 0; i < n; i++) {
         scanf("%d", &arr[i]);
     }
@@ -32,6 +31,5 @@ int main() {
         }
     }
 
-    printf("No second largest element found (all elements are equal).\n");
     return 0;
 }
