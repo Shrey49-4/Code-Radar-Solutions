@@ -18,7 +18,7 @@ int main() {
     }
 
     if (!found) {
-        printf("No peak found.\n");
+        printf("%d", lis[n-1]);
     }
     
     return 0;
