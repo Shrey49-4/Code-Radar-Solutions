@@ -12,6 +12,8 @@ int main()
             printf("%d\n", lis[i]);
             break;
             f=1;
+        }else if(lis[i]=lis[i-1] && lis[i]=lis[i+1]){
+            printf("-1");
         }
     }
 
