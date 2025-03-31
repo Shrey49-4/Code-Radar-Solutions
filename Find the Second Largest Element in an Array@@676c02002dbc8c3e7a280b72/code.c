@@ -15,13 +15,7 @@ void sortDescending(int arr[], int n) {
 
 int main() {
     int n;
-    printf("Enter size of array: ");
     scanf("%d", &n);
-    
-    if (n < 2) {
-        printf("Array should have at least two elements.\n");
-        return 0;
-    }
 
     int arr[n];
     printf("Enter array elements: ");
