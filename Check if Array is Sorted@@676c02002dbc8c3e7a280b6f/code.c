@@ -1,12 +1,12 @@
 #include <stdio.h>
 int main()
 {
-    int i,n,arr[10],num=0;
+    int i,n,lis[10],num=0;
     scanf("%d", &n);
     for(i=0;i<n;i++){
-        scanf("%d", arr[i]);
+        scanf("%d", lis[i]);
         if(i>=1){
-            if(arr[i+1]>=arr[i]){
+            if(lis[i+1]>=lis[i]){
                 num++;
             }
         }
