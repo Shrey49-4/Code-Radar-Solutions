@@ -1,8 +1,9 @@
 #include <stdio.h>
 int main()
 {
-    int i,n,lis[],num=0;
+    int i,n,num=0;
     scanf("%d", &n);
+    int lis[n];
     for(i=0;i<n;i++){
         scanf("%d", lis[i]);
         if(i>=1){
