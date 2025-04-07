@@ -16,12 +16,12 @@ int main()
             if(arre[i]<arre[j])
             {
                 temp=arre[i];
-                arre[j]=arre[i];
+                arre[i]=arre[j];
                 arre[j]=arre[i];
             }
         }
     }
 
-    printf("%d", arre[1]);
+    printf("%d", arre[]);
     return 0;
 }
