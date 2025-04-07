@@ -3,25 +3,22 @@ int main()
 {
     int n,i,temp,j;
     scanf("%d", &n);
-    int arre[n];
+    int arr[n];
     for(i=0;i<n;i++)
     {
-        scanf("%d", &arre[i]);
+        scanf("%d", &arr[i]);
     }
     // printf("%d", arre[0]);
-    for(i=0;i<n-1;i++)
-    {
-        for(j=i+1;j<n;j++)
-        {
-            if(arre[i]<arre[j])
-            {
-                temp=arre[i];
-                arre[i]=arre[j];
-                arre[j]=arre[i];
-            }
-        }
+    for (int i = 0; i < n-1; i++) {
+        for (int j = i+1; j < n; j++) {
+            if (arr[i] < arr[j]) { // Sort in descending order
+                temp = arr[i];
+                arr[i] = arr[j];
+                arr[j] = temp;
     }
+        }
 
-    printf("%d", arre[1]);
+    printf("%d", arr[1]);
     return 0;
+}
 }
