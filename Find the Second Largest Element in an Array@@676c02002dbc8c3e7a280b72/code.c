@@ -22,6 +22,6 @@ int main()
         }
     }
 
-    printf("%d", arre[0]);
+    printf("%d", arre[1]);
     return 0;
 }
